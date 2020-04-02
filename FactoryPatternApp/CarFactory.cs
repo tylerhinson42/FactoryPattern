@@ -9,15 +9,13 @@ namespace FactoryPatternApp
         public static IVehicle GetAuto(string autoType)
         {
             switch (autoType.ToLower())
-            {
-                case "auto":
-                    return new MyAuto();
+            {               
                 case "sedan":
-                    return new Sedan();            
+                    return new Sedan();                 
                 case "SUV":
-                    return new SUV();                
+                    return new SUV();                  
                 default:
-                    return new MyAuto();
+                    return new Car();                   
             }
         }
     }

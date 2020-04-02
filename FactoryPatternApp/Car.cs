@@ -1,9 +1,9 @@
 ﻿using System;
 namespace FactoryPatternApp
 {
-    public class MyAuto : IVehicle
+    public class Car : IVehicle
     {
-        public MyAuto()
+        public Car()
         {
             
         }
