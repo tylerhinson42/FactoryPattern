@@ -7,7 +7,7 @@ namespace FactoryPatternApp
 {
     public class ConsoleLoggingVehicle
     {
-        public static void VehicleBuildDialogue()
+        public static void CarBuildDialogue()
         {
             Console.WriteLine("Gathering Vehicle tools!");
             Thread.Sleep(1000);

@@ -11,7 +11,7 @@ namespace FactoryPatternApp
 
         //public int NumWheels { get; set; }
         //public string VehicleType { get; set; }
-         
+
 
 
         //public void GetWheels(int wheelCount);

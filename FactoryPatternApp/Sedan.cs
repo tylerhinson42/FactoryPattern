@@ -9,8 +9,8 @@ namespace FactoryPatternApp
     {
         public void Build()
         {
-
-
+            ConsoleLogging.CarBuildDialogue();
+            Console.WriteLine("You are creating a sedan..");
         }
     }
 }
