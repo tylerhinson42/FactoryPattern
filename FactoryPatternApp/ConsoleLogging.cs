@@ -14,9 +14,12 @@ namespace FactoryPatternApp
             Console.WriteLine("Constructing build kit!");
             Thread.Sleep(1000);
         }
-        internal static void CarBuildDialogue()
+        public static void CarBuildDialogue()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Gathering Vehicle tools!");
+            Thread.Sleep(1000);
+            Console.WriteLine("Constructing build kit!");
+            Thread.Sleep(1000);
         }
     }
 }
