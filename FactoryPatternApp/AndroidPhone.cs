@@ -6,13 +6,8 @@ namespace FactoryPatternApp
     {
         public void Build()
         {
-            ConsoleLogging.CarBuildDialogue();
+            ConsoleLogging.PhoneBuildDialogue();
             Console.WriteLine("Building an Android phone!");
-        }
-
-        internal void Drive()
-        {
-            throw new NotImplementedException();
-        }
+        }      
     }
 }

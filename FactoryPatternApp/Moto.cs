@@ -13,14 +13,11 @@ namespace FactoryPatternApp
         public void Build()
         {
             throw new NotImplementedException();
-        }
-            
-
+        }            
         public void GetWheels(int wheelCount)
         {
             Console.WriteLine("You have created a motorcycle");
         }
-
         internal void Drive()
         {
             throw new NotImplementedException();

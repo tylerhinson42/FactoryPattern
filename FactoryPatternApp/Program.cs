@@ -12,19 +12,28 @@ namespace FactoryPatternApp
             //Ask the user for the phone they wish to create
             Console.WriteLine("What kind of phone do you want to create?");
             string userPhone = Console.ReadLine();
-
             //Choose the correct type of phone to create through the factory method that implements the ICallable interface
             ICallable phone = PhoneFactory.GetPhone(userPhone);
             phone.Build();
             Console.ReadLine();
 
+            Console.WriteLine("What kind of auto would you like to create?");
+            string userAuto = Console.ReadLine();
+            IVehicle auto = CarFactory.GetAuto(userAuto);          
+            auto.Build();                                  
+            Console.ReadLine();
 
-            var Harley = new Moto();
-            var Car1 = new Auto();
-            Car1.Drive();
-            Harley.Drive();
+            //IVehicle newCar = CarFactory.GetAuto(userAuto); //??
 
+            //IVehicle car = CarFactory.GetCar(autoType) //??
 
+            //var Indian = new Moto();
+            //var Harley = new Moto();
+            //var Prius = new Sedan();
+
+            //var Car1 = new Auto();
+            //Car1.Drive();
+            //Harley.Drive();
 
             //***********Example of bad practice************//
 

@@ -5,7 +5,7 @@ using System.Text;
 namespace FactoryPatternApp
 
 {
-    public class ConsoleLoggingVehicle
+    public class ConsoleLoggingCar
     {
         public static void CarBuildDialogue()
         {

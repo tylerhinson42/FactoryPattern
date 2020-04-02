@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace FactoryPatternApp
 {
@@ -9,9 +7,7 @@ namespace FactoryPatternApp
         public Motorcycle()
         {
 
-
         }
-
         public void Build()
         {
             throw new NotImplementedException();

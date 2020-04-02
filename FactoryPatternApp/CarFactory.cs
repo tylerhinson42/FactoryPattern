@@ -6,20 +6,18 @@ namespace FactoryPatternApp
 {
     static class CarFactory
     {
-        public static ICallable GetAuto(string autoType)
+        public static IVehicle GetAuto(string autoType)
         {
             switch (autoType.ToLower())
             {
                 case "auto":
-                    return new Auto();
+                    return new MyAuto();
                 case "sedan":
-                    return new SedanMoto();            
-                case "moto":
-                    return new ApplePhone();
+                    return new Sedan();            
                 case "SUV":
-                    return new SUVAuto();
+                    return new SUV();                
                 default:
-                    return new Auto();
+                    return new MyAuto();
             }
         }
     }

@@ -5,14 +5,18 @@ using System.Threading;
 
 namespace FactoryPatternApp
 {
-    class ConsoleLogging
+    public class ConsoleLogging
     {
-        public static void CarBuildDialogue()
+        public static void PhoneBuildDialogue()
         {
             Console.WriteLine("Gathering phone tools!");
             Thread.Sleep(1000);
             Console.WriteLine("Constructing build kit!");
             Thread.Sleep(1000);
+        }
+        internal static void CarBuildDialogue()
+        {
+            throw new NotImplementedException();
         }
     }
 }

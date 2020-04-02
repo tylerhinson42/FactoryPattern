@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
 
 namespace FactoryPatternApp
 {
@@ -9,7 +6,7 @@ namespace FactoryPatternApp
     {
         public void Build()
         {
-            ConsoleLogging.CarBuildDialogue();
+            ConsoleLogging.PhoneBuildDialogue();
             Console.WriteLine("Building an Apple phone!");
         }
     }
