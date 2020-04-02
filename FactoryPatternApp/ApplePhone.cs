@@ -9,7 +9,7 @@ namespace FactoryPatternApp
     {
         public void Build()
         {
-            ConsoleLogging.PhoneBuildDialogue();
+            ConsoleLogging.CarBuildDialogue();
             Console.WriteLine("Building an Apple phone!");
         }
     }

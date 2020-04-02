@@ -1,11 +1,11 @@
 ﻿using System;
 namespace FactoryPatternApp
 {
-    public class Auto : IVehicle
+    public class MyAuto : IVehicle
     {
-        public Auto()
+        public MyAuto()
         {
-
+            
         }
 
         public int NumWheels { get; set; }
